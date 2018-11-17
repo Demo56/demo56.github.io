@@ -23,7 +23,7 @@ var word_array = [
     'images/21.jpg',
     'images/22.jpg',
     'images/23.jpg',
-    'images/24.jpg',
+    'images/24.jpg'
 ];
 var usedImages = {};
 var usedImagesCount = 0;
