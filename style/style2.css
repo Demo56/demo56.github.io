@@ -4,10 +4,11 @@
     position: fixed;
     left: 0;
     top: 0;
-    right:0;
-    bottom:0;
+    right: 0;
+    bottom: 0;
     z-index: 100000;
 }
+
 .loader {
     height: 40px;
     width: 40px;
@@ -23,7 +24,7 @@
     content: "";
     height: 40px;
     width: 40px;
-    border: 8px solid rgba(255,255,255,.5);
+    border: 8px solid rgba(255, 255, 255, .5);
     border-radius: 10px;
     position: absolute;
     top: 0;
@@ -43,7 +44,6 @@
     }
 }
 
-
 .loader:after {
     animation: animate2 2s infinite linear;
 }
@@ -57,35 +57,89 @@
         transform: rotate(-180deg) skew(-360deg);
     }
 }
-.main{
-    margin:0;
-    padding:0;
+
+.main {
+    margin: 0;
+    padding: 0;
     width: 100%;
     height: 100vh;
 }
 
-
-
-#cssProperties{
-    display: flex;
-    height: 117px;
-
-
-}
-#cssProperties2{
-    display: flex;
-    height: 117px;
-}
-#cssProperties3{
+#cssProperties {
     display: flex;
     height: 117px;
 
 }
 
+#cssProperties2 {
+    display: flex;
+    height: 117px;
+}
+
+#cssProperties3 {
+    display: flex;
+    height: 117px;
+
+}
 
 
+#css_Properties,
+#css_Properties2,
+#css_Properties3,
+#css_Properties4,
+#css_Properties5,
+#css_Properties6,
+#css_Properties7,
+#css_Properties8,
+#css_Properties9,
+#css_Properties10,
+#css_Properties11,
+#css_Properties12,
+#css_Properties13,
+#css_Properties14,
+#css_Properties15,
+#css_Properties16,
+#css_Properties17,
+#css_Properties18,
+#css_Properties19,
+#css_Properties20,
+#css_Properties21,
+#css_Properties22,
+#css_Properties23,
+#css_Properties24 {
+    display: flex;
+    padding-left: 5px;
+}
 
-
+#result_1,
+#result_2,
+#result_3,
+#result_4,
+#result_5,
+#result_6,
+#result_7,
+#result_8,
+#result_9,
+#result_10,
+#result_11,
+#result_12,
+#result_13,
+#result_14,
+#result_15,
+#result_16,
+#result_17,
+#result_18,
+#result_19,
+#result_20,
+#result_21,
+#result_22,
+#result_23,
+#result_24 {
+    height: 40px;
+    width: 40px;
+    border: 1px white;
+    border-radius: 3em;
+}
 
 #result,
 #result2,
@@ -98,10 +152,9 @@
     justify-content: center;
     align-items: center;
 
-
 }
 
-.title1{
+.title1 {
     color: black;
     font-size: 50px;
     display: table-cell;
@@ -121,23 +174,62 @@
 
 .container {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
 
 }
 
 .middle_box {
-
-    width: 800px;
-    height: 600px;
+    padding-top: 70px;
+   width: 600px;
 
 }
 
+.runes24{
+
+
+    padding-left: 250px;
+    padding-top: 50px;
+}
+.rune_box {
+
+}
+
+.rune_box_1 {
+border: #3841ff 1px;
+}
 
 .class-row1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height:500px;
+    height: 500px;
 }
 
+.class-row_1 {
+    display: flex;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
 
+.class-row_2 {
+    display: flex;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+.class-row_3 {
+    display: flex;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+.class-row_4 {
+    display: flex;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+.large.square.el {
+    height: 70px;
+}
