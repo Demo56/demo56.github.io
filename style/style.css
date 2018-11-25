@@ -62,6 +62,9 @@
     padding:0;
     width: 100%;
     height: 100vh;
+
+    background-image: url(../images/background.jpg);
+    background-size: auto;
 }
 
 
@@ -69,6 +72,7 @@
 #cssProperties{
     display: flex;
     height: 117px;
+
 
 
 }
@@ -204,10 +208,15 @@
 #result22,
 #result23,
 #result24{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 117px;
     width: 80px;
     border: 1px white;
     border-radius: 3em;
+    background-image: url(../images/back.png);
+    background-position: center;
 
 }
 
@@ -217,9 +226,7 @@
 
 
 .main {
-    height: 850px;
-    background-image: url(../images/background.jpg);
-    background-size: auto;
+
 }
 
 .container-fluid {

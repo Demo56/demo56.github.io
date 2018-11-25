@@ -3,9 +3,13 @@ function toLoad() {
 
     var css_Properties = anime({
         targets: [
-            '#cssProperties .el_1',
+            '#cssProperties  .el_1',
             '#cssProperties2 .el_1',
             '#cssProperties3 .el_1',
+            '#cssProperties4 .el_1',
+            '#cssProperties5 .el_1',
+            '#cssProperties6 .el_1',
+            '#cssProperties7 .el_1',
             '#css_Properties .el',
             '#css_Properties2 .el',
             '#css_Properties3 .el',

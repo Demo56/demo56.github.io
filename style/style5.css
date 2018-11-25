@@ -62,8 +62,54 @@
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 100vh;
+    height: 850px;
+    background-image: url(../images/background.jpg);
+    background-size: auto;
 }
+
+.title1 {
+    color: black;
+    font-size: 50px;
+    display: table-cell;
+}
+
+
+.container-fluid {
+    box-sizing: border-box;
+    display: flex;
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.middle_box {
+    margin-top: 120px;
+    width: 800px;
+    height: 600px;
+
+}
+
+.class-row1 {
+    display: flex;
+    justify-content: center;
+    height: 137px;
+}
+
+.class-row2 {
+    display: flex;
+    justify-content: space-evenly;
+    height: 137px;
+}
+
+.class-row3 {
+    display: flex;
+    justify-content: center;
+    height: 137px;
+}
+
 
 #cssProperties {
     display: flex;
@@ -106,53 +152,104 @@
     align-items: center;
 
 }
-
-.title1 {
-    color: black;
-    font-size: 50px;
-    display: table-cell;
+.runes24{
+    padding-left: 250px;
+    padding-top: 150px;
 }
 
-.main {
-    height: 850px;
-    background-image: url(../images/background.jpg);
-    background-size: auto;
+
+.rune_box_1 {
+    border: #3841ff 1px;
 }
 
-.container-fluid {
-    box-sizing: border-box;
+
+.class-row_1 {
     display: flex;
-
+    padding-bottom: 5px;
+    padding-right: 5px;
 }
 
-.container {
+.class-row_2 {
     display: flex;
-    justify-content: center;
-
+    padding-bottom: 5px;
+    padding-right: 5px;
 }
 
-.middle_box {
-    margin-top: 120px;
-    width: 800px;
-    height: 600px;
-
-}
-
-.class-row1 {
+.class-row_3 {
     display: flex;
-    justify-content: center;
-    height: 137px;
+    padding-bottom: 5px;
+    padding-right: 5px;
 }
 
-.class-row2 {
+.class-row_4 {
     display: flex;
-    justify-content: space-evenly;
-    height: 137px;
+    padding-bottom: 5px;
+    padding-right: 5px;
 }
 
-.class-row3 {
-    display: flex;
-    justify-content: center;
-    height: 137px;
+.large.square.el {
+    height: 70px;
 }
+
+#css_Properties,
+#css_Properties2,
+#css_Properties3,
+#css_Properties4,
+#css_Properties5,
+#css_Properties6,
+#css_Properties7,
+#css_Properties8,
+#css_Properties9,
+#css_Properties10,
+#css_Properties11,
+#css_Properties12,
+#css_Properties13,
+#css_Properties14,
+#css_Properties15,
+#css_Properties16,
+#css_Properties17,
+#css_Properties18,
+#css_Properties19,
+#css_Properties20,
+#css_Properties21,
+#css_Properties22,
+#css_Properties23,
+#css_Properties24 {
+    display: flex;
+    padding-left: 5px;
+}
+
+
+#result_1,
+#result_2,
+#result_3,
+#result_4,
+#result_5,
+#result_6,
+#result_7,
+#result_8,
+#result_9,
+#result_10,
+#result_11,
+#result_12,
+#result_13,
+#result_14,
+#result_15,
+#result_16,
+#result_17,
+#result_18,
+#result_19,
+#result_20,
+#result_21,
+#result_22,
+#result_23,
+#result_24 {
+    height: 40px;
+    width: 40px;
+    border: 1px white;
+    border-radius: 3em;
+}
+
+
+
 
