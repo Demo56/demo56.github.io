@@ -60,7 +60,7 @@ function getImg() {
     if (exec == true){return;}
     var randomNum = Math.floor(Math.random() * (word_array.length - 1));
     if (!usedImages[randomNum]) {
-        document.getElementById("result").innerHTML = '<img src="' + word_array[randomNum] + '" >';
+        document.getElementById("result").innerHTML = '<img src="' + word_array[randomNum] + '">';
         usedImages[randomNum] = true;
         usedImagesCount++;
         exec = true;

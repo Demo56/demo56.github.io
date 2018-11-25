@@ -35,27 +35,27 @@
     <div class="loader"></div>
 </div>
 <div class="main">
-    <nav class="navbar nav_bar">
+    <nav class="navbar navbar-inverse navbar-static-top"   >
         <div class="container-fluid">
             <div class="navbar-header">
-                <div class="dropdown" style="">
-                    <button class="btn btn-muted dropdown-toggle" data-toggle="dropdown">
-                        <i class="glyphicon glyphicon-list" style="color:black; font-size: 20px;"></i>
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li><a href="index.html">Руны 1</a></li>
-                        <li><a href="runes2.html">Руны 2</a></li>
-                        <li><a href="runes3.html">Руны 3</a></li>
-                        <li><a href="runes4.html">Руны 4</a></li>
-                        <li><a href="runes5.html">Руны 5</a></li>
-                        <li><a href="runes6.html">Руны 6</a></li>
-                    </ul>
-                </div>
+                <a class="navbar-brand" href="#">Руны</a>
             </div>
-            <div>
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html">Главная</a></li>
-                    <li><a href="#">О нас</a></li>
+                    <li class="#"><a href="index.html" >Главная</a></li>
+                </ul>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Расклады <b class="caret"></b> </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="index.html">24 Руны</a></li>
+                            <li><a href="runes2.html">Расклад из трех рун</a></li>
+                            <li><a href="runes3.html">Расклад из четырех рун</a></li>
+                            <li><a href="runes4.html">Расклад из пяти рун</a></li>
+                            <li><a href="runes5.html">Расклад "Крест"</a></li>
+                            <li><a href="runes6.html">Расклад "Волчок"</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -91,11 +91,11 @@
             </div>
         </div>
         <div class="runes24">
-            <div class="rune_box_1" style="">
+            <div class="rune_box_1">
                 <div class="class-row_1">
                     <div id="css_Properties">
                         <div class="large square el">
-                            <div onclick="getImg4()">
+                            <div onclick="getImg3()">
                                 <div id="result_1"></div>
                             </div>
                         </div>

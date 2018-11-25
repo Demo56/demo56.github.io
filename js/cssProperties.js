@@ -29,7 +29,6 @@ function toLoad() {
             '#cssProperties24 .el'
         ],
         left: '240px',
-        backgroundColor: '#FFF',
         borderRadius: ['0em', '3em'],
         easing: 'easeInOutQuad',
 
