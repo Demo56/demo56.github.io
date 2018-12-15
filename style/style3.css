@@ -143,6 +143,20 @@
     background-position: center;
 
 }
+#name,
+#name2,
+#name3,
+#name4
+{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 15px;
+    width: 98px;
+    color: black;
+}
 .title1{
     color: black;
     font-size: 50px;
@@ -183,6 +197,11 @@
     padding-bottom: 5px;
     padding-right: 5px;
 }
+.class-row_5 {
+    display: flex;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
 
 .large.square.el {
     height: 70px;
@@ -211,7 +230,8 @@
 #css_Properties21,
 #css_Properties22,
 #css_Properties23,
-#css_Properties24 {
+#css_Properties24,
+#css_Properties25{
     display: flex;
     padding-left: 5px;
 }
@@ -240,9 +260,10 @@
 #result_21,
 #result_22,
 #result_23,
-#result_24 {
-    height: 60px;
-    width: 35px;
+#result_24,
+#result_25{
+    height: 70px;
+    width: 40px;
     border: 1px white;
     border-radius: 3em;
     background-image: url(../images/back2.png);
@@ -276,5 +297,7 @@
 #result_22:hover{-moz-box-shadow: 0 0 10px #ccc;  -webkit-box-shadow: 0 0 10px #ccc;  box-shadow: 0 0 10px 10px #62cac9;}
 #result_23:hover{-moz-box-shadow: 0 0 10px #ccc;  -webkit-box-shadow: 0 0 10px #ccc;  box-shadow: 0 0 10px 10px #62cac9;}
 #result_24:hover{-moz-box-shadow: 0 0 10px #ccc;  -webkit-box-shadow: 0 0 10px #ccc;  box-shadow: 0 0 10px 10px #62cac9;}
+#result_25:hover{-moz-box-shadow: 0 0 10px #ccc;  -webkit-box-shadow: 0 0 10px #ccc;  box-shadow: 0 0 10px 10px #62cac9;}
+
 
 

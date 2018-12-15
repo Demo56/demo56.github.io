@@ -33,7 +33,8 @@ function toLoad() {
             '#css_Properties21 .el',
             '#css_Properties22 .el',
             '#css_Properties23 .el',
-            '#css_Properties24 .el'
+            '#css_Properties24 .el',
+            '#css_Properties25 .el'
         ],
         left: '240px',
         borderRadius: ['0em', '3em'],

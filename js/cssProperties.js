@@ -26,7 +26,8 @@ function toLoad() {
             '#cssProperties21 .el',
             '#cssProperties22 .el',
             '#cssProperties23 .el',
-            '#cssProperties24 .el'
+            '#cssProperties24 .el',
+            '#cssProperties25 .el'
         ],
         left: '240px',
         borderRadius: ['0em', '3em'],

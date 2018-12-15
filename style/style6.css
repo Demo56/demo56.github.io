@@ -93,15 +93,15 @@
 
 .class-row1 {
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    height: 300px;
+    height: 305px;
 }
 
 .class-row2 {
     display: flex;
     justify-content: space-evenly;
+    height:150px;
 
 }
 
@@ -116,13 +116,13 @@
 
 #cssProperties {
     display: flex;
-    height: 117px;
+    height: 145px;
 
 }
 
 #cssProperties2 {
     display: flex;
-    height: 117px;
+    height: 145px;
 }
 
 #cssProperties3 {
@@ -142,11 +142,11 @@
  }
 #cssProperties6 {
     display: flex;
-    height: 117px;
+    height: 145px;
 }
 #cssProperties7 {
     display: flex;
-    height: 117px;
+    height: 145px;
 }
 
 #result,
@@ -168,6 +168,23 @@
 
 }
 
+#name,
+#name2,
+#name3,
+#name4,
+#name5,
+#name6,
+#name7
+{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 15px;
+    width: 98px;
+    color: black;
+}
 .runes24{
     padding-left: 250px;
     padding-top: 150px;
@@ -202,6 +219,11 @@
     padding-bottom: 5px;
     padding-right: 5px;
 }
+.class-row_5 {
+    display: flex;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
 
 .large.square.el {
     height: 70px;
@@ -230,7 +252,8 @@
 #css_Properties21,
 #css_Properties22,
 #css_Properties23,
-#css_Properties24 {
+#css_Properties24,
+#css_Properties25 {
     display: flex;
     padding-left: 5px;
     cursor: pointer;
@@ -260,7 +283,8 @@
 #result_21,
 #result_22,
 #result_23,
-#result_24 {
+#result_24,
+#result_25{
     height: 60px;
     width: 35px;
     border: 1px white;
@@ -297,6 +321,7 @@
 #result_22:hover{-moz-box-shadow: 0 0 10px #ccc;  -webkit-box-shadow: 0 0 10px #ccc;  box-shadow: 0 0 10px 10px #62cac9;}
 #result_23:hover{-moz-box-shadow: 0 0 10px #ccc;  -webkit-box-shadow: 0 0 10px #ccc;  box-shadow: 0 0 10px 10px #62cac9;}
 #result_24:hover{-moz-box-shadow: 0 0 10px #ccc;  -webkit-box-shadow: 0 0 10px #ccc;  box-shadow: 0 0 10px 10px #62cac9;}
+#result_25:hover{-moz-box-shadow: 0 0 10px #ccc;  -webkit-box-shadow: 0 0 10px #ccc;  box-shadow: 0 0 10px 10px #62cac9;}
 
 
 
