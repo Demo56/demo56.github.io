@@ -76,7 +76,7 @@ function getImg() {
     if (!usedImages[randomNum]) {
         document.getElementById("result").innerHTML = '<img src="' + word_array[randomNum] + '">';
         var myImgSrc = document.getElementById("result").getElementsByTagName("img")[0].src.slice(37);
-        var myImgName = decodeURIComponent (myImgSrc.split('.', [2]));
+        var myImgName = decodeURIComponent (myImgSrc.split('.', [1]));
         document.getElementById('name').innerHTML = myImgName;
 
 
@@ -103,7 +103,7 @@ function getImg2() {
     if (!usedImages[randomNum]) {
         document.getElementById("result2").innerHTML = '<img src="' + word_array[randomNum] + '">';
         var myImgSrc = document.getElementById("result2").getElementsByTagName("img")[0].src.slice(37);
-        var myImgName = decodeURIComponent (myImgSrc.split('.', [2]));
+        var myImgName = decodeURIComponent (myImgSrc.split('.', [1]));
         document.getElementById('name2').innerHTML = myImgName;
         usedImages[randomNum] = true;
         usedImagesCount++;
