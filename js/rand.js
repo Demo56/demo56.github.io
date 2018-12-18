@@ -75,7 +75,7 @@ function getImg() {
     var randomNum = Math.floor(Math.random() * (word_array.length - 1));
     if (!usedImages[randomNum]) {
         document.getElementById("result").innerHTML = '<img src="' + word_array[randomNum] + '">';
-        var myImgSrc = document.getElementById("result").getElementsByTagName("img")[0].src.slice(38);
+        var myImgSrc = document.getElementById("result").getElementsByTagName("img")[0].src.slice(36);
         var myImgName = decodeURIComponent (myImgSrc.split('.', [1]));
         document.getElementById('name').innerHTML = myImgName;
 
