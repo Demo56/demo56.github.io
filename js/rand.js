@@ -1,30 +1,30 @@
 src="http://code.jquery.com/jquery-1.8.3.js"
 var word_array = [
-    'images/ДДагаз.png',
-    'images/ММанназ.png',
-    'images/ООтал.png',
-    'images/ЙЙер.png',
-    'images/ААнсуз.png',
-    'images/ТТурисаз.png',
-    'images/УУруз.png',
-    'images/ВВуньо.png',
-    'images/ЛЛагуз.png',
-    'images/ФФеу.png',
-    'images/ЭЭваз.png',
-    'images/ББеркана.png',
-    'images/ТТейваз.png',
-    'images/ААльгиз.png',
-    'images/ЭЭйваз.png',
-    'images/ППерт.png',
-    'images/ИИса.png',
-    'images/ННаутиз.png',
-    'images/ХХагалаз.png',
-    'images/ИИнгуз.png',
-    'images/ССоулу.png',
-    'images/ГГебо.png',
-    'images/ККано.png',
-    'images/РРайдо.png',
-    'images/ППустая.png'
+    'images/дагаз.png',
+    'images/манназ.png',
+    'images/отал.png',
+    'images/йер.png',
+    'images/ансуз.png',
+    'images/турисаз.png',
+    'images/уруз.png',
+    'images/вуньо.png',
+    'images/лагуз.png',
+    'images/феу.png',
+    'images/эваз.png',
+    'images/беркана.png',
+    'images/тейваз.png',
+    'images/альгиз.png',
+    'images/эйваз.png',
+    'images/перт.png',
+    'images/иса.png',
+    'images/наутиз.png',
+    'images/хагалаз.png',
+    'images/ингуз.png',
+    'images/соулу.png',
+    'images/гебо.png',
+    'images/кано.png',
+    'images/райдо.png',
+    'images/пустая.png'
 ];
 
 
@@ -101,7 +101,7 @@ function getImg2() {
     var randomNum = Math.floor(Math.random() * (word_array.length - 1));
     if (!usedImages[randomNum]) {
         document.getElementById("result2").innerHTML = '<img src="' + word_array[randomNum] + '">';
-        var myImgSrc = document.getElementById("result2").getElementsByTagName("img")[0].src.slice(44);
+        var myImgSrc = document.getElementById("result2").getElementsByTagName("img")[0].src.slice(43);
         var myImgName = decodeURIComponent (myImgSrc.split('.', [1]));
         document.getElementById('name2').innerHTML = myImgName;
         usedImages[randomNum] = true;
