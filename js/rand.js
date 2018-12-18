@@ -1,30 +1,30 @@
 src="http://code.jquery.com/jquery-1.8.3.js"
 var word_array = [
-    'images/Дагаз.png',
-    'images/Манназ.png',
-    'images/Отал.png',
-    'images/Йер.png',
-    'images/_Ансуз.png',
-    'images/Турисаз.png',
-    'images/Уруз.png',
-    'images/Вуньо.png',
-    'images/Лагуз.png',
-    'images/Феу.png',
-    'images/Эваз.png',
-    'images/_Беркана.png',
-    'images/Тейваз.png',
-    'images/_Альгиз.png',
-    'images/Эйваз.png',
-    'images/Перт.png',
-    'images/Иса.png',
-    'images/Наутиз.png',
-    'images/Хагалаз.png',
-    'images/Ингуз.png',
-    'images/Соулу.png',
-    'images/Гебо.png',
-    'images/Кано.png',
-    'images/Райдо.png',
-    'images/Пустая.png'
+    'images/ДДагаз.png',
+    'images/ММанназ.png',
+    'images/ООтал.png',
+    'images/ЙЙер.png',
+    'images/ААнсуз.png',
+    'images/ТТурисаз.png',
+    'images/УУруз.png',
+    'images/ВВуньо.png',
+    'images/ЛЛагуз.png',
+    'images/ФФеу.png',
+    'images/ЭЭваз.png',
+    'images/ББеркана.png',
+    'images/ТТейваз.png',
+    'images/ААльгиз.png',
+    'images/ЭЭйваз.png',
+    'images/ППерт.png',
+    'images/ИИса.png',
+    'images/ННаутиз.png',
+    'images/ХХагалаз.png',
+    'images/ИИнгуз.png',
+    'images/ССоулу.png',
+    'images/ГГебо.png',
+    'images/ККано.png',
+    'images/РРайдо.png',
+    'images/ППустая.png'
 ];
 
 
@@ -75,10 +75,9 @@ function getImg() {
     var randomNum = Math.floor(Math.random() * (word_array.length - 1));
     if (!usedImages[randomNum]) {
         document.getElementById("result").innerHTML = '<img src="' + word_array[randomNum] + '">';
-        var myImgSrc = document.getElementById("result").getElementsByTagName("img")[0].src.slice(37);
+        var myImgSrc = document.getElementById("result").getElementsByTagName("img")[0].src.slice(44);
         var myImgName = decodeURIComponent (myImgSrc.split('.', [1]));
         document.getElementById('name').innerHTML = myImgName;
-
 
         usedImages[randomNum] = true;
         usedImagesCount++;
@@ -102,7 +101,7 @@ function getImg2() {
     var randomNum = Math.floor(Math.random() * (word_array.length - 1));
     if (!usedImages[randomNum]) {
         document.getElementById("result2").innerHTML = '<img src="' + word_array[randomNum] + '">';
-        var myImgSrc = document.getElementById("result2").getElementsByTagName("img")[0].src.slice(37);
+        var myImgSrc = document.getElementById("result2").getElementsByTagName("img")[0].src.slice(44);
         var myImgName = decodeURIComponent (myImgSrc.split('.', [1]));
         document.getElementById('name2').innerHTML = myImgName;
         usedImages[randomNum] = true;
@@ -124,7 +123,7 @@ function getImg3() {
     var randomNum = Math.floor(Math.random() * (word_array.length));
     if (!usedImages[randomNum]) {
         document.getElementById("result3").innerHTML = '<img src="' + word_array[randomNum] + '">';
-        var myImgSrc = document.getElementById("result3").getElementsByTagName("img")[0].src.slice(37);
+        var myImgSrc = document.getElementById("result3").getElementsByTagName("img")[0].src.slice(44);
         var myImgName = decodeURIComponent (myImgSrc.split('.', [1]));
         document.getElementById('name3').innerHTML = myImgName;
 
@@ -148,7 +147,7 @@ function getImg4() {
     var randomNum = Math.floor(Math.random() * (word_array.length));
     if (!usedImages[randomNum]) {
         document.getElementById("result4").innerHTML = '<img src="' + word_array[randomNum] + '">';
-        var myImgSrc = document.getElementById("result4").getElementsByTagName("img")[0].src.slice(37);
+        var myImgSrc = document.getElementById("result4").getElementsByTagName("img")[0].src.slice(44);
         var myImgName = decodeURIComponent (myImgSrc.split('.', [1]));
         document.getElementById('name4').innerHTML = myImgName;
         usedImages[randomNum] = true;
@@ -171,7 +170,7 @@ function getImg5() {
     var randomNum = Math.floor(Math.random() * (word_array.length));
     if (!usedImages[randomNum]) {
         document.getElementById("result5").innerHTML = '<img src="' + word_array[randomNum] + '">';
-        var myImgSrc = document.getElementById("result5").getElementsByTagName("img")[0].src.slice(37);
+        var myImgSrc = document.getElementById("result5").getElementsByTagName("img")[0].src.slice(44);
         var myImgName = decodeURIComponent (myImgSrc.split('.', [1]));
         document.getElementById('name5').innerHTML = myImgName;
         usedImages[randomNum] = true;
@@ -195,7 +194,7 @@ function getImg6() {
     var randomNum = Math.floor(Math.random() * (word_array.length));
     if (!usedImages[randomNum]) {
         document.getElementById("result6").innerHTML = '<img src="' + word_array[randomNum] + '">';
-        var myImgSrc = document.getElementById("result6").getElementsByTagName("img")[0].src.slice(37);
+        var myImgSrc = document.getElementById("result6").getElementsByTagName("img")[0].src.slice(44);
         var myImgName = decodeURIComponent (myImgSrc.split('.', [1]));
         document.getElementById('name6').innerHTML = myImgName;
         usedImages[randomNum] = true;
