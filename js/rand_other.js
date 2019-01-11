@@ -98,7 +98,7 @@ function getImg() {
 
         var myImgSrc = document.getElementById("result").getElementsByTagName("img")[0].src.slice(44);
         var myImgName = decodeURIComponent (myImgSrc.split('.', [1]));
-        document.getElementById('name').innerHTML = myImgName;
+      
         usedImages[randomNum] = true;
         usedImagesCount++;
 
@@ -128,7 +128,7 @@ function getImg2() {
 
         var myImgSrc = document.getElementById("result2").getElementsByTagName("img")[0].src.slice(44);
         var myImgName = decodeURIComponent (myImgSrc.split('.', [1]));
-        document.getElementById('name2').innerHTML = myImgName;
+
         usedImages[randomNum] = true;
         usedImagesCount++;
         usedform = true;
@@ -152,7 +152,7 @@ function getImg3() {
 
         var myImgSrc = document.getElementById("result3").getElementsByTagName("img")[0].src.slice(44);
         var myImgName = decodeURIComponent (myImgSrc.split('.', [1]));
-        document.getElementById('name3').innerHTML = myImgName;
+ 
         usedImages[randomNum] = true;
         usedImagesCount++;
         usedform2 = true;
@@ -175,7 +175,7 @@ function getImg4() {
         document.getElementById("result4").innerHTML = '<img src="' + word_array[randomNum] + '">';
         var myImgSrc = document.getElementById("result4").getElementsByTagName("img")[0].src.slice(44);
         var myImgName = decodeURIComponent (myImgSrc.split('.', [1]));
-        document.getElementById('name4').innerHTML = myImgName;
+
         usedImages[randomNum] = true;
         usedImagesCount++;
         usedform3 = true;
@@ -198,7 +198,7 @@ function getImg5() {
         document.getElementById("result5").innerHTML = '<img src="' + word_array[randomNum] + '">';
         var myImgSrc = document.getElementById("result5").getElementsByTagName("img")[0].src.slice(44);
         var myImgName = decodeURIComponent (myImgSrc.split('.', [1]));
-        document.getElementById('name5').innerHTML = myImgName;
+ 
         usedImages[randomNum] = true;
         usedImagesCount++;
         usedform4 = true;
@@ -222,7 +222,7 @@ function getImg6() {
         document.getElementById("result6").innerHTML = '<img src="' + word_array[randomNum] + '">';
         var myImgSrc = document.getElementById("result6").getElementsByTagName("img")[0].src.slice(44);
         var myImgName = decodeURIComponent (myImgSrc.split('.', [1]));
-        document.getElementById('name6').innerHTML = myImgName;
+       
         usedImages[randomNum] = true;
         usedImagesCount++;
         usedform5 = true;
@@ -244,7 +244,7 @@ function getImg7() {
         document.getElementById("result7").innerHTML = '<img src="' + word_array[randomNum] + '">';
         var myImgSrc = document.getElementById("result7").getElementsByTagName("img")[0].src.slice(44);
         var myImgName = decodeURIComponent (myImgSrc.split('.', [1]));
-        document.getElementById('name7').innerHTML = myImgName;
+      
 
         usedImages[randomNum] = true;
         usedImagesCount++;
